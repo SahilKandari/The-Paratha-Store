@@ -1,0 +1,23 @@
+.contactUs_section {
+  display: flex;
+  background-color: rgb(247, 247, 247);
+  margin: 8rem 5rem;
+}
+.contactUs_section > form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 5rem;
+}
+.contactUs_image {
+  flex: 1;
+}
+.contactUs_section > form button {
+  background-color: black;
+  width: 100%;
+  margin-top: 50px;
+}
+.contactUs_section > form :nth-child(1) {
+  margin: 10px 0;
+}

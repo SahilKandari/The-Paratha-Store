@@ -1,0 +1,29 @@
+.aboutus_section {
+  display: flex;
+
+  height: 100vh;
+  margin: 10rem 0;
+  background-color: rgb(206, 235, 76);
+}
+.aboutus_image > img {
+  height: 100vh;
+  width: 50vw;
+}
+.aboutus_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 7rem;
+}
+.aboutus_details > h3 {
+  margin-bottom: 40px;
+  font-size: 36px;
+}
+.aboutus_details > h5 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.aboutus_details > p {
+  text-align: justify;
+  line-height: 30px;
+}
