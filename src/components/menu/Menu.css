@@ -1,0 +1,27 @@
+.menu_card > img {
+  height: 224.55px;
+  width: 224.55px;
+}
+.menu_card > h4 {
+  font-size: 18px;
+
+  margin: 10px 0;
+}
+.menu_card > p {
+  font-size: 18px;
+  color: rgb(255, 105, 97);
+}
+.menu_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(241, 241, 241);
+  margin: 10px;
+}
+.menu_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 50px 10rem;
+}

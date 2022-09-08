@@ -1,0 +1,24 @@
+.orderSummary_section {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+.orderSummary_section h4 {
+  font-size: 22px;
+  color: rgb(143, 143, 143);
+}
+.orderSummary_section > :last-child {
+  color: rgb(255, 105, 97);
+  font-size: 24px;
+}
+.orderSummary_section > :nth-child(4) {
+  width: 70%;
+}
+.orderSummary_Slider {
+  color: rgb(255, 105, 97) !important;
+}
+.orderSummary_section > button {
+  width: 200px;
+}

@@ -1,0 +1,39 @@
+.menu_modalImg {
+  width: 50% !important;
+  height: 97% !important;
+  margin: 10px !important;
+}
+.menu_modal {
+  display: flex;
+}
+.menu_modalData {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.menu_modalData > h3 {
+  color: rgb(143, 143, 143);
+  font-size: 24px;
+  margin: 10px;
+}
+.menu_modalData > :nth-child(2) {
+  font-size: 22px;
+  color: #ff6961;
+  font-weight: 600;
+  margin: 10px;
+}
+.menu_modalData > :nth-child(3) {
+  margin-left: 10px;
+}
+.menu_modalData > button {
+  margin-left: 10px;
+}
+
+.menu_modal_input {
+  display: flex;
+  flex-direction: column;
+
+  width: max-content;
+  height: 5rem;
+}

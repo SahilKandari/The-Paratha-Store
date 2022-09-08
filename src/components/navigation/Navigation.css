@@ -1,0 +1,37 @@
+.navigation_section {
+  display: flex;
+  margin: 30px 70px;
+}
+.navigation_heading {
+  flex: 50%;
+  display: flex;
+  align-items: center;
+}
+.navigation_heading > img {
+  width: 40px;
+  height: 40px;
+}
+.navigation_heading > h2 {
+  margin: 0 0 0 20px;
+  color: rgb(143, 143, 143);
+  font-size: 22px;
+}
+.navigation_navbar {
+  flex: 30%;
+  display: grid;
+  align-items: center;
+}
+.navigation_navbar > ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 0;
+}
+.navigation_navbar > ul > li > a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(143, 143, 143);
+}
+.navigation_navbar > ul :last-child {
+  margin-top: -2px;
+}
