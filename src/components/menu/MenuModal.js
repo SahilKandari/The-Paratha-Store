@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./MenuModal.css";
 import Modal from "../../UI/modal/Modal";
 import { useSelector, useDispatch } from "react-redux";
@@ -25,7 +25,11 @@ function MenuModal(props) {
 
   return (
     <Modal className="menu_modal" onClick={props.onClick}>
-      <img className="menu_modalImg" src={modalData.imageURL} />
+      <img
+        alt={modalData.name}
+        className="menu_modalImg"
+        src={modalData.imageURL}
+      />
       <div className="menu_modalData">
         <h3>{modalData.name}</h3>
         <p>Rs.{modalData.price}</p>

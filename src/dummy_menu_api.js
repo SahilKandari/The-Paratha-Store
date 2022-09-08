@@ -112,7 +112,6 @@ export const DUMMY_MEALS = [
         name: "Yogurt",
         price: 15,
       },
-      ,
       {
         id: "6",
         name: "Extra Cheese",

@@ -23,7 +23,7 @@ function Menu() {
               key={meal.id}
               className="menu_card"
             >
-              <img src={meal.imageURL} />
+              <img alt={meal.name} src={meal.imageURL} />
               <h4>{meal.name}</h4>
               <p>Rs.{meal.price}</p>
             </div>
