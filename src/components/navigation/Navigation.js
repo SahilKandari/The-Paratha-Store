@@ -4,11 +4,13 @@ import { NavLink } from "react-router-dom";
 import LocalMallIcon from "@mui/icons-material/LocalMall";
 
 function Navigation() {
-  let activeNavLink = "activeNavLink";
   return (
     <div className="navigation_section">
       <div className="navigation_heading">
-        <img src="https://static.wixstatic.com/media/f9d5bf_d1ce4c35a5ec4e98a64c9be5ddbe4113~mv2.png/v1/fill/w_2500,h_2500,al_c/f9d5bf_d1ce4c35a5ec4e98a64c9be5ddbe4113~mv2.png" />
+        <img
+          alt="store"
+          src="https://static.wixstatic.com/media/f9d5bf_d1ce4c35a5ec4e98a64c9be5ddbe4113~mv2.png/v1/fill/w_2500,h_2500,al_c/f9d5bf_d1ce4c35a5ec4e98a64c9be5ddbe4113~mv2.png"
+        />
 
         <h2> The paratha store</h2>
       </div>
