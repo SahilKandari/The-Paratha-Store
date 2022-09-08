@@ -2,7 +2,7 @@ import "./App.css";
 import Home from "./components/home/Home";
 import Menu from "./components/menu/Menu";
 import Navigation from "./components/navigation/Navigation";
-import Footer from "./components/footer/Footer";
+// import Footer from "./components/footer/Footer";
 import Cart from "./components/cart/Cart";
 import { Route, Routes } from "react-router-dom";
 function App() {
