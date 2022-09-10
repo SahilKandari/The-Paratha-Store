@@ -25,3 +25,8 @@
   justify-content: space-evenly;
   padding: 50px 10rem;
 }
+@media screen and (max-width: 768px) {
+  .menu_section {
+    padding: 0;
+  }
+}

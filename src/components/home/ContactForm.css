@@ -21,3 +21,26 @@
 .contactUs_section > form :nth-child(1) {
   margin: 10px 0;
 }
+
+@media screen and (max-width: 768px) {
+  .contactUs_section {
+    margin: 5rem 1rem;
+  }
+  .contactUs_section > form {
+    padding: 0 1rem;
+  }
+
+  .contactUs_image {
+    width: 50%;
+  }
+  .contactUs_image > img {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+  }
+  .contactUs_section > form :nth-child(1) {
+    margin: 5px 0;
+  }
+  .contactUs_section > form p {
+    margin: 0;
+  }
+}

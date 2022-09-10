@@ -8,14 +8,10 @@
   z-index: 1000;
 }
 .modal_card {
-  /* width: 50%; */
-  /* height: auto; */
   background-color: white;
   z-index: 1000;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 50vw !important;
-  height: 50vh !important;
 }

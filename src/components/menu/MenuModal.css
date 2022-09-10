@@ -1,10 +1,12 @@
 .menu_modalImg {
-  width: 50% !important;
-  height: 97% !important;
-  margin: 10px !important;
+  width: 50%;
+  height: 97%;
+  margin: 10px;
 }
 .menu_modal {
   display: flex;
+  width: 50vw;
+  height: 50vh;
 }
 .menu_modalData {
   display: flex;
@@ -36,4 +38,11 @@
 
   width: max-content;
   height: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .menu_modal {
+    width: 80%;
+    height: 57%;
+  }
 }

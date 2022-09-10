@@ -27,3 +27,16 @@
   text-align: justify;
   line-height: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .bestFood_body {
+    margin: 3rem 1rem;
+  }
+  .bestFood_image {
+    width: 50%;
+  }
+  .bestFood_image > img {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+  }
+}

@@ -21,7 +21,7 @@ function BestFood() {
           <img
             alt="bestDishes"
             src="https://static.wixstatic.com/media/11062b_6e987737acd94b27adfbda8c8a00f8b0~mv2_d_5616_3744_s_4_2.jpg/v1/fill/w_595,h_460,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/11062b_6e987737acd94b27adfbda8c8a00f8b0~mv2_d_5616_3744_s_4_2.webp"
-          ></img>
+          />
         </div>
       </div>
       <div className="bestFood_body">
